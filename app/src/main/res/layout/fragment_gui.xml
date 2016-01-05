@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/top_view_text"
+            android:id="@+id/top_view_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.dahydroshop.android.dahydroapp.com.dahydroshop.android.dahydroapp.notdone.RoomView
+            android:id="@+id/top_view_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/top_view_text"/>
+        <TextView
+            android:text="@string/front_view_text"
+            android:id="@+id/front_view_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.dahydroshop.android.dahydroapp.com.dahydroshop.android.dahydroapp.notdone.RoomView
+            android:id="@+id/front_view_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/front_view_text"/>
+        <TextView
+            android:text="@string/side_view_text"
+            android:id="@+id/side_view_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.dahydroshop.android.dahydroapp.com.dahydroshop.android.dahydroapp.notdone.RoomView
+            android:id="@+id/side_view_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/side_view_text"/>
+
+    </LinearLayout>
+</ScrollView>
